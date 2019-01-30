@@ -12,7 +12,6 @@ function getRedirectionURI(key) {
     let defaultURI = 'https://hebal400.github.io';
     let redirectionURI = urlParams.has(key) ? decodeURIComponent(urlParams.get(key)) : defaultURI;
 
-    alert(`주소는 ${redirectionURI}`)
     return redirectionURI;
 }
 
@@ -25,7 +24,7 @@ function getRedirectionURI(key) {
  * 현재 미구현 상태
  */
 function checkValidURI(uri) {
-    return false;
+    return true;
 }
 
 /**
