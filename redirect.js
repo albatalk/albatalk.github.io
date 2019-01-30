@@ -25,6 +25,7 @@ function getRedirectionURI(key) {
  */
 function checkValidURI(uri) {
     return true;
+    
 }
 
 /**
