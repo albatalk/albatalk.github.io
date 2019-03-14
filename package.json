@@ -30,7 +30,6 @@
         "bootstrap": "4.3.1",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1"
-        "extend": "3.0.2"
     },
     "devDependencies": {
         "browser-sync": "2.26.3",
@@ -41,5 +40,6 @@
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.2",
         "gulp-uglify": "3.0.1"
+        "extend": "3.0.2"
     }
 }
